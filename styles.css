@@ -2,6 +2,32 @@
     margin: 0px;
 }
 
+.navbar{
+    background-color: peachpuff;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.navbar li{
+    padding: 12px;
+    list-style: none;
+}
+
+.navbar li a{
+    color: rgb(197, 38, 10);
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: rgb(224, 33, 112)
+}
+
 .up_bg p{
     font-size: 50px;
     color: rgb(189, 255, 234, 1);
